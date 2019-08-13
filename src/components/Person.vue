@@ -3,7 +3,7 @@
         <tr>
             <th colspan="2">
                 <router-link :to="{name: 'view', query: {address: name}}">
-                    <img src="../assets/person.jpg"/>
+                    <img src="@/assets/person.jpg"/>
                 </router-link>
             </th>
         </tr>
@@ -32,7 +32,7 @@
         props: {
             name: String,
             balance: String,
-            staking: String,
+            staking: Number,
         },
     }
 </script>
@@ -40,6 +40,8 @@
 <style scoped>
     table {
         border: solid 1px;
+        width: 50px;
+        height: 600px;
     }
 
     table td {

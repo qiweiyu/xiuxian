@@ -21,7 +21,7 @@
         </tr>
         <tr>
             <td>突破修为概率</td>
-            <td>15%</td>
+            <td>23.333333%</td>
         </tr>
     </table>
 </template>

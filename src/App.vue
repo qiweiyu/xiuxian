@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <router-view/>
+    <router-link to="/">道友排行</router-link>
   </div>
 </template>
 
